@@ -190,7 +190,6 @@
   <ItemGroup>
     <ClInclude Include="CAppDev.h" />
     <ClInclude Include="CDebugger.h" />
-    <ClInclude Include="Hit.h" />
     <ClInclude Include="RFID.h" />
     <ClInclude Include="RFIDDlg.h" />
     <ClInclude Include="Resource.h" />
