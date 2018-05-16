@@ -1,13 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="CAppDev.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="RFID.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CDebugger.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="RFIDDlg.cpp">
@@ -16,17 +10,20 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CMoney.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRnW.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMeter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CAppDev.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CDebugger.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="RFID.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -40,6 +37,22 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ZM124U.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoney.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRnW.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="CTimeMeter.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
